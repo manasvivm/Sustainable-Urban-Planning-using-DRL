@@ -1,0 +1,82 @@
+[2024-09-16 14:57:14,550] id: hlg
+[2024-09-16 14:57:14,550] seed: 111
+[2024-09-16 14:57:14,550] objectives_plan: objectives_hlg
+[2024-09-16 14:57:14,550] init_plan: init_plan_hlg
+[2024-09-16 14:57:14,550] env_specs: {}
+[2024-09-16 14:57:14,551] reward_specs: {'road_network_weight': 0.0, 'life_circle_weight': 8.0, 'greenness_weight': 1.0, 'wastemgmt_weight': 1.0}
+[2024-09-16 14:57:14,551] obs_specs: {}
+[2024-09-16 14:57:14,551] agent_specs: {'batch_stage': False}
+[2024-09-16 14:57:14,551] skip_land_use: False
+[2024-09-16 14:57:14,551] skip_road: True
+[2024-09-16 14:57:14,551] road_ratio: 0.0
+[2024-09-16 14:57:14,551] gamma: 2.0
+[2024-09-16 14:57:14,551] tau: 0.0
+[2024-09-16 14:57:14,551] state_encoder_specs: {'state_encoder_hidden_size': [64, 16], 'gcn_node_dim': 8, 'num_gcn_layers': 4, 'num_edge_fc_layers': 1, 'max_num_nodes': 5000, 'max_num_edges': 5000, 'num_attention_heads': 2}
+[2024-09-16 14:57:14,551] policy_specs: {'policy_land_use_head_hidden_size': [32, 1], 'policy_road_head_hidden_size': [32, 1]}
+[2024-09-16 14:57:14,551] value_specs: {'value_head_hidden_size': [32, 32, 1]}
+[2024-09-16 14:57:14,551] lr: 0.004
+[2024-09-16 14:57:14,551] weightdecay: 0.1
+[2024-09-16 14:57:14,551] eps: 0.0001
+[2024-09-16 14:57:14,551] value_pred_coef: 0.1
+[2024-09-16 14:57:14,551] entropy_coef: 0.1
+[2024-09-16 14:57:14,551] clip_epsilon: 0.2
+[2024-09-16 14:57:14,551] max_num_iterations: 1
+[2024-09-16 14:57:14,551] num_episodes_per_iteration: 1
+[2024-09-16 14:57:14,551] max_sequence_length: 30
+[2024-09-16 14:57:14,551] num_optim_epoch: 4
+[2024-09-16 14:57:14,551] mini_batch_size: 256
+[2024-09-16 14:57:14,551] save_model_interval: 1
+[2024-09-16 14:58:27,940] 0	T_sample 4.69	T_update 66.67	T_eval 1.28	ETA 0:00:00	train_R_eps 4.95	eval_R_eps 4.32	hlg
+[2024-09-16 14:58:27,946] save best checkpoint with rewards 4.32!
+[2024-09-16 14:58:27,952] training done!
+[2024-09-16 15:31:02,314] id: hlg
+[2024-09-16 15:31:02,314] seed: 111
+[2024-09-16 15:31:02,314] objectives_plan: objectives_hlg
+[2024-09-16 15:31:02,314] init_plan: init_plan_hlg
+[2024-09-16 15:31:02,314] env_specs: {}
+[2024-09-16 15:31:02,314] reward_specs: {'road_network_weight': 0.0, 'life_circle_weight': 8.0, 'greenness_weight': 1.0, 'wastemgmt_weight': 1.0}
+[2024-09-16 15:31:02,315] obs_specs: {}
+[2024-09-16 15:31:02,315] agent_specs: {'batch_stage': False}
+[2024-09-16 15:31:02,315] skip_land_use: False
+[2024-09-16 15:31:02,315] skip_road: True
+[2024-09-16 15:31:02,315] road_ratio: 0.0
+[2024-09-16 15:31:02,315] gamma: 2.0
+[2024-09-16 15:31:02,315] tau: 0.0
+[2024-09-16 15:31:02,315] state_encoder_specs: {'state_encoder_hidden_size': [64, 16], 'gcn_node_dim': 8, 'num_gcn_layers': 4, 'num_edge_fc_layers': 1, 'max_num_nodes': 5000, 'max_num_edges': 5000, 'num_attention_heads': 2}
+[2024-09-16 15:31:02,315] policy_specs: {'policy_land_use_head_hidden_size': [32, 1], 'policy_road_head_hidden_size': [32, 1]}
+[2024-09-16 15:31:02,315] value_specs: {'value_head_hidden_size': [32, 32, 1]}
+[2024-09-16 15:31:02,315] lr: 0.004
+[2024-09-16 15:31:02,315] weightdecay: 0.1
+[2024-09-16 15:31:02,315] eps: 0.0001
+[2024-09-16 15:31:02,315] value_pred_coef: 0.1
+[2024-09-16 15:31:02,315] entropy_coef: 0.1
+[2024-09-16 15:31:02,315] clip_epsilon: 0.2
+[2024-09-16 15:31:02,315] max_num_iterations: 20
+[2024-09-16 15:31:02,315] num_episodes_per_iteration: 5
+[2024-09-16 15:31:02,315] max_sequence_length: 30
+[2024-09-16 15:31:02,315] num_optim_epoch: 4
+[2024-09-16 15:31:02,315] mini_batch_size: 256
+[2024-09-16 15:31:02,315] save_model_interval: 1
+[2024-09-16 15:32:17,675] 0	T_sample 4.51	T_update 68.85	T_eval 1.30	ETA 0:23:39	train_R_eps 4.95	eval_R_eps 4.32	hlg
+[2024-09-16 15:32:17,682] save best checkpoint with rewards 4.32!
+[2024-09-16 15:34:56,361] 1	T_sample 4.35	T_update 152.71	T_eval 1.57	ETA 0:47:35	train_R_eps 4.78	eval_R_eps 3.86	hlg
+[2024-09-16 15:36:09,811] 2	T_sample 4.68	T_update 67.27	T_eval 1.46	ETA 0:20:48	train_R_eps 4.88	eval_R_eps 3.98	hlg
+[2024-09-16 15:37:21,910] 3	T_sample 4.55	T_update 66.18	T_eval 1.33	ETA 0:19:13	train_R_eps 4.93	eval_R_eps 3.78	hlg
+[2024-09-16 15:38:33,664] 4	T_sample 6.44	T_update 64.03	T_eval 1.22	ETA 0:17:56	train_R_eps 4.95	eval_R_eps 3.64	hlg
+[2024-09-16 15:39:43,661] 5	T_sample 4.41	T_update 64.23	T_eval 1.32	ETA 0:16:19	train_R_eps 4.95	eval_R_eps 3.84	hlg
+[2024-09-16 15:40:53,780] 6	T_sample 5.77	T_update 62.93	T_eval 1.37	ETA 0:15:11	train_R_eps 4.97	eval_R_eps 4.57	hlg
+[2024-09-16 15:40:53,786] save best checkpoint with rewards 4.57!
+[2024-09-16 15:42:04,266] 7	T_sample 4.42	T_update 64.60	T_eval 1.41	ETA 0:14:05	train_R_eps 4.95	eval_R_eps 3.78	hlg
+[2024-09-16 15:43:15,153] 8	T_sample 4.74	T_update 64.73	T_eval 1.38	ETA 0:12:59	train_R_eps 4.98	eval_R_eps 3.64	hlg
+[2024-09-16 15:44:25,424] 9	T_sample 4.39	T_update 64.54	T_eval 1.30	ETA 0:11:42	train_R_eps 4.90	eval_R_eps 3.64	hlg
+[2024-09-16 15:45:36,085] 10	T_sample 4.48	T_update 64.61	T_eval 1.51	ETA 0:10:35	train_R_eps 4.97	eval_R_eps 3.64	hlg
+[2024-09-16 15:46:46,035] 11	T_sample 4.36	T_update 64.16	T_eval 1.39	ETA 0:09:19	train_R_eps 4.89	eval_R_eps 3.64	hlg
+[2024-09-16 15:47:56,423] 12	T_sample 4.47	T_update 64.50	T_eval 1.38	ETA 0:08:12	train_R_eps 4.84	eval_R_eps 3.64	hlg
+[2024-09-16 15:49:07,368] 13	T_sample 5.92	T_update 63.60	T_eval 1.39	ETA 0:07:05	train_R_eps 4.93	eval_R_eps 3.64	hlg
+[2024-09-16 15:50:17,899] 14	T_sample 4.35	T_update 64.74	T_eval 1.40	ETA 0:05:52	train_R_eps 4.86	eval_R_eps 3.64	hlg
+[2024-09-16 15:51:29,272] 15	T_sample 4.55	T_update 65.40	T_eval 1.38	ETA 0:04:45	train_R_eps 4.93	eval_R_eps 3.64	hlg
+[2024-09-16 15:52:39,986] 16	T_sample 4.42	T_update 64.86	T_eval 1.39	ETA 0:03:32	train_R_eps 4.90	eval_R_eps 3.64	hlg
+[2024-09-16 15:53:50,963] 17	T_sample 4.46	T_update 64.83	T_eval 1.64	ETA 0:02:22	train_R_eps 4.91	eval_R_eps 3.64	hlg
+[2024-09-16 15:55:01,633] 18	T_sample 4.69	T_update 64.57	T_eval 1.38	ETA 0:01:11	train_R_eps 4.76	eval_R_eps 3.64	hlg
+[2024-09-16 15:56:12,137] 19	T_sample 4.25	T_update 64.81	T_eval 1.39	ETA 0:00:00	train_R_eps 4.88	eval_R_eps 3.64	hlg
+[2024-09-16 15:56:12,146] training done!
